@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
-
+<head>
+	<title>wireguy</title>
+	
        <!-- GlslCanvas -->
 	   <script type="text/javascript" src="https://rawgit.com/patriciogonzalezvivo/glslCanvas/master/dist/GlslCanvas.js"></script>
-        
+               
+       <!-- GlslEditor -->
 
-   
+        <link type="text/css" rel="stylesheet" href="https://thebookofshaders.com/glslEditor/glslEditor.css">
+        <script type="application/javascript" src="https://thebookofshaders.com/glslEditor/glslEditor.js"></script>
+
+ </head>  
 
 		
 <body>
@@ -13,19 +19,11 @@
 
 <p>created with GitHub Pages</p>
 
-<canvas class="glslCanvas" data-fragment-url=“
-
-#ifdef GL_ES
-precision mediump float;
-#endif
-
-void main() {
-	gl_FragColor = vec4(1.0,0.0,1.0,1.0);
-}
+<canvas class="glslCanvas" data-fragment-url="test1.frag" width="500" height="500"></canvas>
 
 
 
-" width="500" height="500"></canvas>
+
 
 </body>
 </html>
